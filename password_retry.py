@@ -7,7 +7,7 @@
 
 password = 'a123456'
 i = 3 #剩餘機會
-while i >= 1:
+while i > 0:
 	keyin = input('請輸入密碼: ')
 	if keyin == password:
 		print('登入成功!')
